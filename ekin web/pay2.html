@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<script>
+    function buton(){
+     var answer=window.confirm("Do you want to continue.")
+      if(answer){
+          alert("The payment completed.")
+          
+      }
+      else{
+          alert("The payment failed.")
+      }
+    }
+</script>
+
+
+</head>
+
+<style>
+    body{
+    background: rgb(19,32,59);
+background: linear-gradient(90deg, rgb(37, 37, 37) 12%, rgb(82, 82, 83) 48%);
+}
+
+.div1{
+    border: 1px;
+    width: 40%;
+    height: 250px;
+    margin: auto;
+    margin-top:10%;
+    padding-top: 15px;
+    border-radius: 30px;
+    background-color: rgb(17, 18, 19);
+    box-shadow: rgba(7, 7, 7, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input{
+    display: block;
+    margin: 20px;
+    margin-left: 70px;
+    height: 30px;
+    width: 35%;
+}
+
+.div2{
+    font-size: 70px;
+    
+color: rgb(206, 236, 31);
+    margin-left: 33%;
+    position: absolute;
+    top: 62%;
+    
+}
+
+.card{
+    position: absolute;
+    top: 42%;
+    left: 64%;
+    color: rgb(248, 248, 246);
+    font-size: 50px;
+}
+
+.month{
+    margin-left: 30px;
+    width: 45px;
+    height: 30px;
+}
+
+span{
+    padding-left: 72px;
+    color: white;
+    font-weight: bold;
+}
+
+button{
+    margin-left: 75%;
+    margin-top: 6%;
+    font-size: 16px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 9px;
+    height: 30px;
+    width: 20%;
+}
+
+.year{
+    width: 70px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+
+}
+ul li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    
+}
+
+ul li a{
+    display: block;
+    padding: 0 15px;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    
+
+
+}
+
+ul li a:hover{
+    background: #f5f5f7;
+
+}
+
+ul ul{
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    display: none;
+}
+
+ul li:hover>ul{
+    display: block;
+}
+
+ul ul li{
+    width: 120px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.drop{
+    background: rgb(237, 237, 241);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+border-color: black;
+border-style: outset;
+border-width: 4px;
+width: 100%;
+border: 1px;
+}
+
+.backgr{
+    background-color:rgb(237, 237, 241) ;
+}
+.personal{
+  position: absolute;
+   right: 30px; 
+   top: 16.4%;
+   font-size: 40px;
+}
+.top{
+   
+   height: 10.5vh;
+   background-color: black;
+   font-family: 'Bebas Neue', cursive;
+   color: white;
+   font-size:93px;
+padding-left: 40%;
+padding-bottom: 16px;
+
+width: 853px;
+height: 100px;
+background-color: rgb(2, 2, 2);
+-webkit-animation-name: example; 
+-webkit-animation-duration: 4s; 
+animation-name: example;
+animation-duration: 4s;
+}
+@-webkit-keyframes example {
+0%   {background-color: rgb(126, 126, 123);}
+25%  {background-color: rgb(109, 109, 112);}
+50%  {background-color: rgb(199, 199, 196);}
+100% {background-color: rgb(5, 5, 5);}
+}
+@keyframes example {
+0%   {background-color: rgb(126, 126, 123);}
+25%  {background-color: rgb(109, 109, 112);}
+50%  {background-color: rgb(199, 199, 196);}
+100% {background-color: rgb(5, 5, 5);}
+}
+.backgrr{
+    background-color:rgb(237, 237, 241) ;
+    width: 102px;
+    
+}
+
+</style>
+<body>
+
+
+    <div class="top">METCLUB</div>
+    
+    <div class="drop">
+        <ul class="dropdown">
+            <li><a href="fromsıgnpage1.html">Home Page</a></li>
+            <li><a href="">Categories<i class="fas fa-caret-down"></i></a>
+            <ul class="backgr">
+                <a href=""><li>Pilates</li></a>
+                <a href=""><li>Fitness</li></a>
+            </ul>
+        </li>
+            <li><a href="pay.html">Fees</a></li>
+            <li><a href="">About<i class="fas fa-caret-down"></i></a>
+                <ul class="backgrr">
+                    <a href=""><li>USA</li></a>
+                    <a href=""><li>HU</li></a>
+                </ul>
+            </li>
+            <li><a href="hours.html">Hours</a></li>
+            <li><a href="firstpage.html">Sıgn Out</a></li>
+            <i class="far fa-user personal"></i>
+        </ul>
+      
+    </div>
+
+    
+    
+    <div class="div2">
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-paypal"></i>
+        <i class="fab fa-cc-mastercard"></i>
+
+    </div>
+    <div class="div1">
+        <form>
+            <input type="text" name="Name" class="nametext" placeholder="Card No"><i class="fas fa-credit-card card"></i>
+        <input type="text" name="Name" class="nametext" placeholder="Security Code">
+       <span>Expiration date</span> <select name="month" class="month">
+            <option value="jan">1</option>
+            <option value="feb">2</option>
+            <option value="mar">3</option>
+            <option value="ap">4</option>
+            <option value="may">5</option>
+            <option value="jun">6</option>
+            <option value="jly">7</option>
+            <option value="aug">8</option>
+            <option value="sep">9</option>
+            <option value="oct">10</option>
+            <option value="now">11</option>
+            <option value="dec">12</option>
+</select>
+            <select  name="year" class="year" >
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+            </select>
+
+           
+        </form>
+
+        <a href="pay.html"><button onclick="buton()">Confirm</button></a>
+       
+    </div>
+
+   
+</body>
+</html>

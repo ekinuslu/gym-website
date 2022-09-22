@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Monoton&family=Pacifico&family=Press+Start+2P&family=Shizuru&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    table{
+        margin: auto;
+        background-color: rgb(252, 249, 249);
+        border: 5px rgb(105, 104, 104);
+        border-style:outset;
+        margin-top: 35px;
+    }
+    td{
+        height: 70px;
+        width: 120px;
+        text-align: center;
+        font-family: monospace;
+        font-size: 20px;
+        
+       
+    }
+    span{
+        display: block;
+    }
+
+    .black{
+        background-color: black;
+        color: white;
+    }
+    th{
+        font-family: 'Pacifico', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Shizuru', cursive;
+font-size: 35px;
+color: rgb(245, 248, 245);
+    }
+
+    .blue{
+        
+        color: rgb(73, 73, 167);
+    }
+
+    .pink{
+        color: rgb(196, 44, 175);
+    }
+
+    .grey{
+        color: rgb(110, 134, 75);
+    }
+
+    .yellow{
+        color: rgb(156, 156, 7);
+    }
+
+    .purple{
+        color: purple;
+    }
+
+    .red{
+        color: rgb(167, 72, 72);
+    }
+    .back{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 48%;
+    
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+
+}
+ul li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    
+}
+
+ul li a{
+    display: block;
+    padding: 0 15px;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    
+
+
+}
+
+ul li a:hover{
+    background: #f5f5f7;
+
+}
+
+ul ul{
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    display: none;
+}
+
+ul li:hover>ul{
+    display: block;
+}
+
+ul ul li{
+    width: 120px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.drop{
+    background: rgb(237, 237, 241);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+border-color: black;
+border-style: outset;
+border-width: 4px;
+width: 100%;
+border: 1px;
+}
+
+.backgr{
+    background-color:rgb(237, 237, 241) ;
+}
+.personal{
+  position: absolute;
+   right: 30px; 
+   top: 16.4%;
+   font-size: 40px;
+   
+}
+
+.top{
+   
+   height: 10.5vh;
+   background-color: black;
+   font-family: 'Bebas Neue', cursive;
+   color: white;
+   font-size:93px;
+padding-left: 40%;
+padding-bottom: 16px;
+
+width: 853px;
+height: 100px;
+background-color: rgb(2, 2, 2);
+-webkit-animation-name: example; 
+-webkit-animation-duration: 4s; 
+animation-name: example;
+animation-duration: 4s;
+}
+@-webkit-keyframes example {
+0%   {background-color: rgb(126, 126, 123);}
+25%  {background-color: rgb(109, 109, 112);}
+50%  {background-color: rgb(199, 199, 196);}
+100% {background-color: rgb(5, 5, 5);}
+}
+@keyframes example {
+0%   {background-color: rgb(126, 126, 123);}
+25%  {background-color: rgb(109, 109, 112);}
+50%  {background-color: rgb(199, 199, 196);}
+100% {background-color: rgb(5, 5, 5);}
+}
+.backgrr{
+    background-color:rgb(237, 237, 241) ;
+    width: 102px;
+    
+}
+
+</style>
+<body>
+    <div class="top">METCLUB</div>
+    
+    <div class="drop">
+        <ul class="dropdown">
+            <li><a href="fromsıgnpage1.html">Home Page</a></li>
+            <li><a href="">Categories<i class="fas fa-caret-down"></i></a>
+            <ul class="backgr">
+                <a href=""><li>Pilates</li></a>
+                <a href=""><li>Fitness</li></a>
+            </ul>
+        </li>
+       
+            <li><a href="pay.html">Fees</a></li>
+            <li><a href="">About<i class="fas fa-caret-down"></i></a>
+                <ul class="backgrr">
+                    <a href=""><li>USA</li></a>
+                    <a href=""><li>HU</li></a>
+                </ul>
+            </li>
+            <li><a href="hours.html">Hours</a></li>
+            <li><a href="firstpage.html">Sıgn Out</a></li>
+            <i class="far fa-user personal"></i>
+        </ul>
+      
+    </div>
+
+
+
+   
+    <table border="1">
+        <tr class="black">
+            <th>MONDAY</th>
+            <th>TUESDAY</th>
+            <th>WEDNESDAY</th>
+            <th>THURSDAY</th>
+            <th>FRIDAY</th>
+            <th>SATURDAY</th>
+            <th>SUNDAY</th>
+
+        </tr>
+        <tr class="blue">
+            <td>6:00 am<span>Cardio</span></td>
+            <td>6:00 am<span>Cardio</span></td>
+            <td>6:00 am<span>Cardio</span></td>
+            <td>6:00 am<span>Cardio</span></td>
+            <td>6:00 am<span>Cardio</span></td>
+            <td>6:00 am<span>Cardio</span></td>
+            <td>6:00 am<span>Cardio</span></td>
+        </tr>
+        <tr class="pink">
+            
+            <td>8:00 am<span>Spin</span></td>
+            <td>8:00 am<span>Spin</span></td>
+            <td>8:00 am<span>Spin</span></td>
+            <td>8:00 am<span>Spin</span></td>
+            <td>8:00 am<span>Spin</span></td>
+            <td>8:00 am<span>Spin</span></td>
+            <td>8:00 am<span>Spin</span></td>
+        </tr>
+       <tr class="grey">
+        <td>10:00 am<span>Yoga</span></td>
+        <td>10:00 am<span>Yoga</span></td>
+        <td>10:00 am<span>Yoga</span></td>
+        <td>10:00 am<span>Yoga</span></td>
+        <td>10:00 am<span>Yoga</span></td>
+        <td>10:00 am<span>Yoga</span></td>
+        <td>10:00 am<span>Yoga</span></td>
+       </tr>     
+        <tr class="yellow">
+            <td>12:00 pm<span>Aquafit</span></td>
+            <td>12:00 pm<span>Aquafit</span></td>
+            <td>12:00 pm<span>Aquafit</span></td>
+            <td>12:00 pm<span>Aquafit</span></td>
+            <td>12:00 pm<span>Aquafit</span></td>
+            <td>12:00 pm<span>Aquafit</span></td>
+            <td>12:00 pm<span>Aquafit</span></td>
+        </tr>
+        <tr class="purple">
+            <td>2:00 pm<span>Bootcamp</span></td>
+            <td>2:00 pm<span>Bootcamp</span></td>
+            <td>2:00 pm<span>Bootcamp</span></td>
+            <td>2:00 pm<span>Bootcamp</span></td>
+            <td>2:00 pm<span>Bootcamp</span></td>
+            <td>2:00 pm<span>Bootcamp</span></td>
+            <td>2:00 pm<span>Bootcamp</span></td>
+        </tr>
+        <tr class="red">
+            <td>3:00 pm<span>Cardio</span></td>
+            <td>3:00 pm<span>Cardio</span></td>
+            <td>3:00 pm<span>Cardio</span></td>
+            <td>3:00 pm<span>Cardio</span></td>
+            <td>3:00 pm<span>Cardio</span></td>
+            <td>3:00 pm<span>Cardio</span></td>
+            <td>3:00 pm<span>Cardio</span></td>
+        </tr>
+       
+    </table>
+     
+</body>
+</html>

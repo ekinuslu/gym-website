@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<style>
+    body{
+        background-color: black;
+    }
+    .box{
+        background-color:white;
+        color: black;
+   
+        width: 22%;
+        height: 540px;
+        margin: auto;
+        font-size: x-large;
+        font-weight: bold;
+        font-family: monospace;
+        border-radius: 40px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 0%;
+        box-shadow: rgba(30, 65, 218, 0.952) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .name{
+        height: 20px;
+        width: 70%;
+        border-radius: 5px;
+    }
+
+    .surname{
+        height: 20px;
+        width: 70%;
+        border-radius: 5px;
+    }
+    .email{
+        height: 20px;
+        width: 70%;
+        border-radius: 5px;
+    }
+    .password{
+        height: 20px;
+        width: 70%;
+        border-radius: 5px;
+    }
+    .location{
+        height: 28px;
+        width: 74%;
+        border-radius: 5px;
+        border-style:outset
+        
+    }
+    .phone{
+        height: 20px;
+        width: 70%;
+        border-radius: 5px;
+    }
+    input{
+        border-style: outset;
+    }
+
+
+.back{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 48%;
+    
+}
+ul{
+    padding: 0;
+    margin: 0;
+
+}
+ul li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    
+}
+
+ul li a{
+    display: block;
+    padding: 0 15px;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    
+
+
+}
+
+ul li a:hover{
+    background: #f5f5f7;
+
+}
+
+ul ul{
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    display: none;
+}
+
+ul li:hover>ul{
+    display: block;
+}
+
+ul ul li{
+    width: 120px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.drop{
+    background-color: rgb(237, 237, 241);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+border-color: black;
+border-style: outset;
+border-width: 4px;
+width: 100%;
+
+border: 1px;
+
+}
+
+
+
+
+
+
+
+.backgr{
+    background-color:rgb(237, 237, 241) ;
+}
+
+
+.top{
+   
+    height: 10.5vh;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size:93px;
+padding-left: 40%;
+padding-bottom: 16px;
+
+width: 60%;
+height: 100px;
+background-color: rgb(2, 2, 2);
+-webkit-animation-name: example; /* Chrome, Safari, Opera */
+-webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+animation-name: example;
+animation-duration: 4s;
+}
+@-webkit-keyframes example {
+0%   {background-color: rgb(126, 126, 123);}
+25%  {background-color: rgb(109, 109, 112);}
+50%  {background-color: rgb(199, 199, 196);}
+100% {background-color: rgb(5, 5, 5);}
+}
+@keyframes example {
+0%   {background-color: rgb(126, 126, 123);}
+25%  {background-color: rgb(109, 109, 112);}
+50%  {background-color: rgb(199, 199, 196);}
+100% {background-color: rgb(5, 5, 5);}
+}
+
+.backgrr{
+    background-color:rgb(237, 237, 241) ;
+    width: 103px;
+    
+}
+.sign{
+position: absolute;
+right: 30px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 110%;
+font-weight: bold;
+top:145px;
+color: rgb(3, 3, 3);
+
+}
+.continue{
+width: 84%;
+height: 40px;
+background-color: black;
+color: white;
+margin-left: 11.5px;
+margin-top: 5px;
+}
+
+    
+</style>
+    
+    
+
+<body>
+
+    <body>
+        <div class="top">METCLUB</div>
+    
+        <div class="drop">
+            <ul class="dropdown">
+                <li><a href="">Home Page</a></li>
+                <li><a href="">Categories<i class="fas fa-caret-down"></i></a>
+                <ul class="backgr">
+                    <a href=""><li>Pilates</li></a>
+                    <a href=""><li>Fitness</li></a>
+                </ul>
+            </li>
+                
+                <li><a href="">About<i class="fas fa-caret-down"></i></a>
+                    <ul class="backgrr">
+                        <a href=""><li>USA</li></a>
+                        <a href=""><li>HU</li></a>
+                    </ul>
+                </li>
+                <li><a href="#page2">Contact</a></li>
+    
+            </ul>
+           <a href="sıgn.html"><p class="sign">SIGN</p></a>
+        </div>
+    
+    
+    <h1>Create Account</h1>
+    <div class="signbox">
+        
+        <form id="f">
+           <div class="box">
+<h>Name</h><br> <input type="text" name="name" class="name" id="n" >
+<br>
+<br>
+<h>Surname</h><br><input type="text" name="surname" class="surname" id="s" >
+<br>
+<br>
+<h>E-mail</h><br><input type="text" name="E-mail"  placeholder="e.g.metclub@gmail.com" class="email"  id="e">
+<br>
+<br>
+<h>Phone Number</h><br> <input type="text" name="phone" class="phone" id="po">
+<br>
+<br>
+<h>Password</h><br><input type="password" name="password" class="password" id="pa">
+<br>
+<br>
+<h>Location</h><br> 
+<select class="location" id="l">
+    <option value="0">Select Location:</option>
+    <option value="1">United States</option>
+    <option value="2">Hungary</option>
+  </select>
+<br>
+<br>
+<input type="radio" id="c1" name="cc" />
+                <label for="c1">Male</label><span><input type="radio" id="c1" name="cc" />
+                    <label for="c1">Female</label></span><span><input type="radio" id="c1" name="cc" />
+                        <label for="c1">Other</label></span>
+
+                        <a href="fromsıgnpage1.html"><button type="button" class="continue" onclick="validateForm()">Continue</button></a> 
+
+                    </div>
+<br>
+<br> 
+
+ 
+ 
+ 
+    
+               
+        
+            
+            </form>
+            
+            
+       </div>
+       <script>
+          
+        function validateForm(){
+           
+            alert("Your registration has been successfully created.")
+
+        }
+            
+
+           
+    
+ </script>
+
+
+</body>
+</html>

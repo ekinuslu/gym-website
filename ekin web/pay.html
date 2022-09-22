@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pay.css">
+
+</head>
+    <script>
+        function func()
+        {
+           var type=document.getElementsByName('cc');
+           if(type[0].checked)
+           {
+            
+            document.getElementById('write').innerHTML="For daily admission:$10";
+           }
+
+           else if(type[1].checked){
+               
+               document.getElementById('write').innerHTML="Two days a week for a month:$50";
+           }
+
+           else if(type[2].checked){
+               
+               document.getElementById('write').innerHTML="Three days a week for a month:$55";
+           }
+           else if(type[3].checked){
+               
+               document.getElementById('write').innerHTML="Every day of the week for a month:$60";
+           }
+           else if(type[4].checked){
+               
+               document.getElementById('write').innerHTML="Two days a week for a year:$450";
+           }
+           else if(type[5].checked){
+               
+               document.getElementById('write').innerHTML="Three days a week for a year:$550";
+           }
+           else if(type[6].checked){
+              
+               document.getElementById('write').innerHTML="Every day of the week for a year:$600";
+           }
+
+         
+          
+        }
+
+        function buton(){
+       
+           alert("You are redirected to the payment page.")
+         
+        }
+
+        
+
+
+    </script>
+  
+
+
+
+</head>
+
+
+<body>
+    <div class="top">METCLUB</div>
+
+    <div class="drop">
+        <ul class="dropdown">
+            <li><a href="fromsıgnpage1.html">Home Page</a></li>
+            <li><a href="">Categories<i class="fas fa-caret-down"></i></a>
+            <ul class="backgr">
+                <a href=""><li>Pilates</li></a>
+                <a href=""><li>Fitness</li></a>
+            </ul>
+        </li>
+            <li><a href="pay.html">Fees</a></li>
+            <li><a href="">About<i class="fas fa-caret-down"></i></a>
+                <ul class="backgrr">
+                    <a href=""><li>USA</li></a>
+                    <a href=""><li>HU</li></a>
+                </ul>
+            </li>
+            <li><a href="hours.html">Hours</a></li>
+            <li><a href="firstpage.html">Sıgn Out</a></li>
+            <i class="far fa-user personal"></i>
+        </ul>
+      
+    </div>
+
+    <div><h1 class="choose">Choose the Appropriate Package</h1></div>
+
+   
+    <div class="display">
+
+<div class="daily"><h1>DAILY</h1><hr>
+    
+    <input type="radio" onclick="func()" id="btn" name="cc" style="height:23px; width:35px; "/><span>$10</span>
+
+</div>
+
+<div class="monthly"><h1>MONTHLY</h1><hr>
+   
+   <span class="small">Twice a week <input type="radio" onclick="func()" id="c2" name="cc" style="height:19px; width:35px; "/></span><span class="small">Thirt a week <input type="radio" onclick="func()" name="cc" style="height:19px; width:35px; "/></span><span class="small">All week <input type="radio" onclick="func()" name="cc" style="height:19px; width:35px; "/></span>
+
+</div>
+
+<div class="ayear"><h1>A YEAR</h1><hr>
+
+  <span class="small">Twice a week <input type="radio" onclick="func()" id="c3" name="cc" style="height:19px; width:35px; "/></span><span class="small">Thirt a week <input type="radio" onclick="func()" name="cc" style="height:19px; width:35px; "/></span><span class="small">All week <input type="radio"  onclick="func()" name="cc" style="height:19px; width:35px; "/></span>
+</div>
+
+<a href="pay2.html"><button onclick="buton()">Continue</button></a>
+
+    </div>
+
+    <div class="fees"><span><p id="write"></p></div></span>
+
+    
+</body>
+</html>
